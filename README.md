@@ -1,3 +1,15 @@
+---
+title: Smart Bin AI
+emoji: 🤖
+colorFrom: red
+colorTo: blue
+sdk: streamlit
+sdk_version: 1.23.1
+app_file: streamlit_app.py
+pinned: false
+license: mit
+---
+
 # Smart Bin AI - YOLO Waste Detection
 
 ## 🤖 Application Features
