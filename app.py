@@ -2,9 +2,12 @@ from pathlib import Path
 import PIL.Image
 import streamlit as st
 import sys
+import os
 
 # Add the app directory to Python path
-sys.path.append(str(Path(__file__).parent / "yolov8" / "app"))
+app_dir = Path(__file__).parent / "yolov8" / "app"
+sys.path.insert(0, str(app_dir))
+os.chdir(app_dir)
 
 import settings
 import helper
